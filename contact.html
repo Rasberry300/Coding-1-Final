@@ -18,7 +18,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./img/logo.png"></a>
+      <a class="navbar-brand" href="#"><img src="https://png.pngtree.com/png-vector/20191018/ourmid/pngtree-tree-logo-design-png-image_1824170.jpg"  width="100"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,9 +38,46 @@
     </div>
   </nav> <!-- End of Nav -->
 
-<h1>contact Page</h1>
+<h1 class="bottom">Contact Me</h1>
+<div class="container">
+  <form action="action_page.php">
 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">where are you from</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">whats up</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    
+  </form>
+</div>
+
+<style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(42, 197, 28);
+    color: white;
+    text-align: center;
+  }
+  </style>
+  
+  <div class="footer">
+    <p>welcome to my website</p>
+  </div>
 </body>
 
 </html>
